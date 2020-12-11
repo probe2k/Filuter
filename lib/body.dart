@@ -28,7 +28,7 @@ class _AppBodyState extends State<AppBody> {
                     child: Column(
                       children: [
                         SizedBox(
-                          height: 30,
+                          height: 50,
                         ),
                         Row(
                           children: [
@@ -36,7 +36,7 @@ class _AppBodyState extends State<AppBody> {
                               width: 20,
                             ),
                             Text(
-                              'Hello',
+                              'Hello,',
                               style:
                                   TextStyle(color: Colors.white, fontSize: 30),
                             ),
@@ -52,21 +52,21 @@ class _AppBodyState extends State<AppBody> {
                           ],
                         ),
                         SizedBox(
-                          height: 20,
+                          height: 10,
                         ),
-                        Text(
-                          'YASH SINGH!',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 30,
-                          ),
-                        ),
-                        Text(
-                          'Let\'s Organize!',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 18,
-                          ),
+                        Row(
+                          children: [
+                            SizedBox(
+                              width: 20,
+                            ),
+                            Text(
+                              'YASH SINGH!',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
